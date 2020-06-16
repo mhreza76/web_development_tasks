@@ -1,0 +1,79 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;   
+}
+body{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("images/background.jpg");
+    background-size: cover ;
+}
+.wrapper{
+    width: 550px;
+    padding: 15px;
+    /* background: plum; */
+    margin: auto auto; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header{
+    text-align: center;
+    font-family: 'Metal Mania', cursive; 
+    /* background: red; */
+}
+.mainbody{
+    width: 400px;
+    background: lightcyan;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.logo{
+    
+    /* background: green; */
+}
+.logo img{
+    width: 100%;
+}
+.mdl{
+    /* background: khaki; */
+    padding: 30px;
+}
+.mdl .inp{
+    width: calc(100% - 30px);
+    box-shadow: 0 0 2px #999999;
+    padding: 7px;
+    font-size: 13pt;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Indie Flower', cursive;
+}
+.mdl .lgnbtn{
+    width: 100%;
+    font-size: 13pt;
+    border-radius: 5px;
+    padding: 10px 0;
+    border: none;
+    color: white;
+    background: #333333;
+    font-family: 'Suez One', serif;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.mdl .lgnbtn:hover{
+    background: #BD783A;
+    color:black;
+}
+.mdl .member a, footer a{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+footer{
+    /* background: lightseagreen; */
+    color: white;
+    margin-top: 35px;
+}
