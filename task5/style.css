@@ -24,7 +24,8 @@ html, body {
 
 .wrapper header {
   width: 100%;
-  margin: 20px 0;
+  margin: 0;
+  padding-top: 20px;
   position: relative;
 }
 
@@ -37,11 +38,17 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
 }
 
 .wrapper header .menubar .logo {
   width: 250px;
   float: left;
+}
+
+.wrapper header .menubar .logo h1 {
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper header .menubar .menus {

@@ -18,9 +18,9 @@ html, body{
     width: 100%;
     overflow-x: hidden;
     header{
-        // top: 0;
         width: 100%;
-        margin: 20px 0;
+        margin: 0;
+        padding-top: 20px;
         position: relative;
         // background: red;
 
@@ -29,13 +29,15 @@ html, body{
             margin: 0 auto;
             display: flex;
             align-items: center;
+            padding: 0;
             // background: green;
             .logo{
                 width: 250px;
                 float: left;
-                // h1{
-    
-                // }
+                h1{
+                    margin: 0;
+                    padding: 0;
+                }
             }
     
             .menus{
