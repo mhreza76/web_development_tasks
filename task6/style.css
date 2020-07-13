@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/*------Universal CSS------*/
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: 0px;
+}
+
+/*------common css------*/
+.fz-0 {
+  font-size: 15px;
+}
+
+.fz-1 {
+  font-size: 18px;
+}
+
+.fz-2 {
+  font-size: 50px;
+}
+
+.fz-3 {
+  font-size: 80px;
+}
+
+.fz-4 {
+  font-size: 120px;
+}
+
+.fz- {
+  font-size: 240px;
+}
+
+.txt-tomato {
+  color: #F63F0E;
+}
+
+.font-pt {
+  font-family: "PT Serif", serif;
+}
+
+/*----page css----*/
+.wrapper {
+  height: 100%;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  z-index: 10001;
+  width: 100%;
+}
+
+header .navbar ul li a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .navbar ul li a:last-child {
+  margin-right: 0 !important;
+}
+
+.banner {
+  background: url("images/mt-883_home_bg-1.jpg");
+  position: relative;
+  background-size: cover;
+}
+
+.banner img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=style.css.map */
